@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericMethod", "GenericMet
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericMethod2", "GenericMethod2\GenericMethod2.csproj", "{9B574D2A-C4E2-4CA2-9F94-8CCF9DC5FB8C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplementGeneric", "ImplementGeneric\ImplementGeneric.csproj", "{4EE85B48-67F3-499E-9A74-A8ED061EE742}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{9B574D2A-C4E2-4CA2-9F94-8CCF9DC5FB8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B574D2A-C4E2-4CA2-9F94-8CCF9DC5FB8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B574D2A-C4E2-4CA2-9F94-8CCF9DC5FB8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EE85B48-67F3-499E-9A74-A8ED061EE742}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EE85B48-67F3-499E-9A74-A8ED061EE742}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EE85B48-67F3-499E-9A74-A8ED061EE742}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EE85B48-67F3-499E-9A74-A8ED061EE742}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
