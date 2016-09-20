@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06StaticFieldOfGeneric", "0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07StaticConstructorOfGeneric", "07StaticConstructorOfGeneric\07StaticConstructorOfGeneric.csproj", "{38DC9141-41B7-4B2D-95E0-B19A612FF6AB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08Enumerable", "08Enumerable\08Enumerable.csproj", "{B8FDCECA-A2A6-47A0-8748-90F67AC0DEBA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{38DC9141-41B7-4B2D-95E0-B19A612FF6AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38DC9141-41B7-4B2D-95E0-B19A612FF6AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38DC9141-41B7-4B2D-95E0-B19A612FF6AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8FDCECA-A2A6-47A0-8748-90F67AC0DEBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8FDCECA-A2A6-47A0-8748-90F67AC0DEBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8FDCECA-A2A6-47A0-8748-90F67AC0DEBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8FDCECA-A2A6-47A0-8748-90F67AC0DEBA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
