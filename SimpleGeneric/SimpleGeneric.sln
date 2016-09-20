@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07StaticConstructorOfGeneri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08Enumerable", "08Enumerable\08Enumerable.csproj", "{B8FDCECA-A2A6-47A0-8748-90F67AC0DEBA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09ReflectOfGeneric", "09ReflectOfGeneric\09ReflectOfGeneric.csproj", "{660ADC3C-83EE-45F0-A50B-57E5716A4B32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10GetTypeOfGeneric", "10GetTypeOfGeneric\10GetTypeOfGeneric.csproj", "{902F2191-744E-497D-8B42-3413A23687F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{B8FDCECA-A2A6-47A0-8748-90F67AC0DEBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8FDCECA-A2A6-47A0-8748-90F67AC0DEBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8FDCECA-A2A6-47A0-8748-90F67AC0DEBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{660ADC3C-83EE-45F0-A50B-57E5716A4B32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{660ADC3C-83EE-45F0-A50B-57E5716A4B32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{660ADC3C-83EE-45F0-A50B-57E5716A4B32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{660ADC3C-83EE-45F0-A50B-57E5716A4B32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{902F2191-744E-497D-8B42-3413A23687F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{902F2191-744E-497D-8B42-3413A23687F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{902F2191-744E-497D-8B42-3413A23687F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{902F2191-744E-497D-8B42-3413A23687F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
