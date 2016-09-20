@@ -43,7 +43,7 @@ namespace UpperDelegate
             mouseEventHandler(null, new MouseEventArgs(MouseButtons.None, 0, 0, 0, 0));
 
             //Func委托类型以及Lambda表达式
-            Func<int, int, string> func = (x, y) => (x*y).ToString();
+            Func<int, int, string> func = (x, y) => (x * y).ToString();
             Console.WriteLine(func(5, 20));
 
             Console.Read();
