@@ -16,7 +16,7 @@ namespace SimpleEvent
             Message = s;
         }
     }
-
+    event EventHandler<CustomEventArgs> RaiseCustom;
     //Class that publishes an event
     class Publisher
     {
