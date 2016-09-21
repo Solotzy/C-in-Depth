@@ -36,6 +36,34 @@ namespace SimpleNullable
             x = new Nullable<int>();
             Console.WriteLine("Instance without value:");
             Display(x);
+
+            //可空类型的装箱和拆箱行为
+            Console.WriteLine("\n可空类型的装箱和拆箱行为");
+            Nullable<int> nullable = 5;
+            //装箱成 有值的可空类型的实例
+            object boxed = nullable;
+            Console.WriteLine(boxed.GetType());
+
+            //拆箱成非可空变量
+            int normal = (int) boxed;
+            Console.WriteLine(normal);
+
+            //拆箱成可空变量
+            nullable = (Nullable<int>) boxed;
+            Console.WriteLine(nullable);
+
+            nullable = new Nullable<int>();
+            //装箱成 没有值的可空类型的实例
+            boxed = nullable;
+            Console.WriteLine(boxed == null);
+
+            //拆箱成可空变量
+            nullable = (Nullable<int>) boxed;
+            Console.WriteLine(nullable.HasValue);
+
+            normal = (int)boxed;
+            Console.WriteLine(normal);
+
             Console.Read();
         }
     }
