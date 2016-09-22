@@ -26,6 +26,7 @@ namespace _05AnonymousSort
             {
                 return f1.Name.CompareTo(f2.Name);
             });
+            Console.WriteLine();
             SortAndShowFiles("Sorted by length:", delegate(FileInfo f1, FileInfo f2)
             {
                 return f1.Length.CompareTo(f2.Length);

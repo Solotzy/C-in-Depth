@@ -1,8 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿/*
+ * 使用忽略了参数的匿名方法来订阅事件
+ */
+using System;
 using System.Windows.Forms;
 
 namespace _06IgnoreParams
