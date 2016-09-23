@@ -1,4 +1,7 @@
-﻿using System;
+﻿/*
+ * 使用迭代器块实现LINQ的Where方法
+ */
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +11,8 @@ namespace _08LinqWhere
 {
     class Program
     {
+        //我们将实现分为两部分：参数验证和真正的过滤逻辑
+        //参数验证
         public static IEnumerable<T> Where<T>(IEnumerable<T> source,
             Predicate<T> predicate)
         {
@@ -20,6 +25,7 @@ namespace _08LinqWhere
             return WhereImpl(source, predicate);
         }
 
+        //过滤逻辑
         private static IEnumerable<T> WhereImpl<T>(IEnumerable<T> source,
             Predicate<T> predicate)
         {
