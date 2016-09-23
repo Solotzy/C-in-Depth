@@ -20,7 +20,7 @@ namespace _02YieldReturn
         {
             for (int index = 0; index < values.Length; index++)
             {
-                yield return values[(index + startingPoint)%values.Length];
+                yield return values[(index + startingPoint) % values.Length];
             }
         }
     }
