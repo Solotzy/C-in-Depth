@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01SimpleEnumerate", "Simple
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02YieldReturn", "02YieldReturn\02YieldReturn.csproj", "{F0808F5B-C54C-4224-92E0-729B3EDFFB43}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03WorkFlow", "03WorkFlow\03WorkFlow.csproj", "{B009DC45-AF15-47AC-A633-27A218EB37D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04YieldBreak", "04YieldBreak\04YieldBreak.csproj", "{5BAAE276-F7D2-400D-998D-47E48D445529}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{F0808F5B-C54C-4224-92E0-729B3EDFFB43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F0808F5B-C54C-4224-92E0-729B3EDFFB43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F0808F5B-C54C-4224-92E0-729B3EDFFB43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B009DC45-AF15-47AC-A633-27A218EB37D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B009DC45-AF15-47AC-A633-27A218EB37D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B009DC45-AF15-47AC-A633-27A218EB37D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B009DC45-AF15-47AC-A633-27A218EB37D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BAAE276-F7D2-400D-998D-47E48D445529}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BAAE276-F7D2-400D-998D-47E48D445529}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BAAE276-F7D2-400D-998D-47E48D445529}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BAAE276-F7D2-400D-998D-47E48D445529}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
