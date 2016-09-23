@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoProperty", "AutoProperty\AutoProperty.csproj", "{6D014C79-BCDC-40EF-9E91-4A68004382AF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01AutoProperty", "AutoProperty\01AutoProperty.csproj", "{6D014C79-BCDC-40EF-9E91-4A68004382AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
