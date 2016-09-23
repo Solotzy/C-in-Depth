@@ -7,12 +7,12 @@ using System.ComponentModel;
 using System.IO;
 using System.Text;
 
-namespace _07IterationDateTime
+namespace _07IterationText
 {
-    class Program
+    public class Program
     {
         //#1
-        static IEnumerable<string> ReadLines(string filename)
+        public static IEnumerable<string> ReadLines(string filename)
         {
             using (TextReader reader = File.OpenText(filename))
             {
