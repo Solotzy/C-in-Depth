@@ -1,4 +1,7 @@
-﻿using System;
+﻿/*
+ * 演示yield break语句
+ */
+using System;
 using System.Collections.Generic;
 using System.Threading;
 
@@ -10,6 +13,7 @@ namespace _04YieldBreak
         {
             for (int i = 1; i <= 100; i++)
             {
+                Console.WriteLine(limit);
                 if (DateTime.Now >= limit)
                 {
                     yield break;
