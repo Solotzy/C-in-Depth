@@ -3,12 +3,15 @@
  */
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.IO;
+using System.Text;
 
 namespace _07IterationDateTime
 {
     class Program
     {
+        //#1
         static IEnumerable<string> ReadLines(string filename)
         {
             using (TextReader reader = File.OpenText(filename))
@@ -20,6 +23,34 @@ namespace _07IterationDateTime
                 }
             }
         }
+
+        //#2
+        public delegate TResult Func<TResult>();
+        static IEnumerable<string> ReadLines(Func<TextReader> provider)
+        {
+            using (TextReader reader = provider())
+            {
+                string line;
+                while ((line = reader.ReadLine()) != null)
+                {
+                    yield return line;
+                }
+            }
+        }
+
+        //#3
+        //static IEnumerable<string> ReadLines(string filename)
+        //{
+        //    return ReadLines(filename, Encoding.UTF8);
+        //}
+
+        //static IEnumerable<string> ReadLines(string filename, Encoding encoding)
+        //{
+        //    return ReadLines(delegate
+        //    {
+        //        return File.OpenText(filename);
+        //    });
+        //}
         static void Main(string[] args)
         {
             foreach (var line in ReadLines("test.txt"))
