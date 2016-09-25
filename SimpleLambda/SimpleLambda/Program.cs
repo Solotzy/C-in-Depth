@@ -23,6 +23,18 @@ namespace SimpleLambda
             returnLengthLam = (string text) => { return text.Length; };
             Console.WriteLine(returnLengthLam("World!"));
 
+            //用单一表达式作为主体
+            returnLengthLam = (string text) => text.Length;
+            Console.WriteLine(returnLengthLam("World!"));
+
+            //隐式类型的参数列表
+            returnLengthLam = (text) => text.Length;
+            Console.WriteLine(returnLengthLam("World!"));
+
+            //单一参数的快捷语法
+            returnLengthLam = text => text.Length;
+            Console.WriteLine(returnLengthLam("World!"));
+
             Console.Read();
         }
     }
