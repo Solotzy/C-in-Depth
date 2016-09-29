@@ -17,7 +17,8 @@ namespace _01AToolClass
             using (Stream responseStream = response.GetResponseStream())
             using (FileStream output = File.Create("response.dat"))
             {
-                StreamUtil.Copy(responseStream, output);
+                //StreamUtil.CopyTo(responseStream, output);
+                responseStream.CopyTo(output);
             }
         }
     }

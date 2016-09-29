@@ -6,7 +6,7 @@ namespace _01AToolClass
     {
         const int BufferSize = 8192;
 
-        public static void Copy(Stream input, Stream output)
+        public static void CopyTo(this Stream input, Stream output)
         {
             byte[] buffer = new byte[BufferSize];
             int read;
@@ -16,11 +16,11 @@ namespace _01AToolClass
             }
         }
 
-        public static byte[] ReadFully(Stream input)
+        public static byte[] ReadFully(this Stream input)
         {
             using (MemoryStream tempStream = new MemoryStream())
             {
-                Copy(input, tempStream);
+                input.CopyTo(tempStream);
                 return tempStream.ToArray();
             }
         }
