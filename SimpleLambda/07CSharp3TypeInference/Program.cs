@@ -28,6 +28,7 @@ namespace _07CSharp3TypeInference
             PrintType(1, new object());
 
             //2.
+            //类型推断现在分阶段进行
             ConvertTwice("Another string",
                          text => text.Length,
                          length => Math.Sqrt(length));
