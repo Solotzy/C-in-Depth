@@ -23,10 +23,7 @@ namespace _02ExplicitCast
 
             //2.
             var newlist = list.Cast<string>().Select(entry => entry.Substring(0, 3));
-            foreach (var s in newlist)
-            {
-                Console.WriteLine(s);
-            }
+            newlist.ToList().ForEach(Console.WriteLine);
             Console.Read();
         }
     }
