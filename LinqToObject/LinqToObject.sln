@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqToObject", "LinqToObjec
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01SimpleLinq", "01SimpleLinq\01SimpleLinq.csproj", "{00CC3530-1A97-406E-8CF8-F1EBB06BBD06}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02ExplicitCast", "02ExplicitCast\02ExplicitCast.csproj", "{97043960-FB31-4DAB-9265-F78756834356}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{00CC3530-1A97-406E-8CF8-F1EBB06BBD06}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00CC3530-1A97-406E-8CF8-F1EBB06BBD06}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00CC3530-1A97-406E-8CF8-F1EBB06BBD06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97043960-FB31-4DAB-9265-F78756834356}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97043960-FB31-4DAB-9265-F78756834356}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97043960-FB31-4DAB-9265-F78756834356}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97043960-FB31-4DAB-9265-F78756834356}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
