@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleExtension", "SimpleEx
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01AToolClass", "01AToolClass\01AToolClass.csproj", "{6003E596-4474-4BE0-B563-CD4469D1D2F2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02StartsWithEnumerable", "02StartsWithEnumerable\02StartsWithEnumerable.csproj", "{F7ABCF5E-ADE3-447B-8C8F-48B091FBE59C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6003E596-4474-4BE0-B563-CD4469D1D2F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6003E596-4474-4BE0-B563-CD4469D1D2F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6003E596-4474-4BE0-B563-CD4469D1D2F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7ABCF5E-ADE3-447B-8C8F-48B091FBE59C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7ABCF5E-ADE3-447B-8C8F-48B091FBE59C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7ABCF5E-ADE3-447B-8C8F-48B091FBE59C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7ABCF5E-ADE3-447B-8C8F-48B091FBE59C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
