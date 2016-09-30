@@ -12,6 +12,7 @@ namespace _02ExplicitCast
         static void Main(string[] args)
         {
             ArrayList list = new ArrayList {"First", "Second", "Third"};
+            //1.
             var strings = from string entry in list
                 select entry.Substring(0, 3);
             foreach (string s in strings)
