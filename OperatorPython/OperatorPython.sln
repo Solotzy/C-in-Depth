@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01HelloWorld", "OperatorPython\01HelloWorld.csproj", "{593D84BF-5144-46E2-B886-3C13C141B54C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02ScriptScope", "02ScriptScope\02ScriptScope.csproj", "{2E49F11D-DF32-46BB-B5E8-0AC671F62764}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{593D84BF-5144-46E2-B886-3C13C141B54C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{593D84BF-5144-46E2-B886-3C13C141B54C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{593D84BF-5144-46E2-B886-3C13C141B54C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E49F11D-DF32-46BB-B5E8-0AC671F62764}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E49F11D-DF32-46BB-B5E8-0AC671F62764}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E49F11D-DF32-46BB-B5E8-0AC671F62764}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E49F11D-DF32-46BB-B5E8-0AC671F62764}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
