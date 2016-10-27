@@ -1,8 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿/* C#编程指南
+ * Main()和命令行参数
+ * Main()方法是C#控制台应用程序或窗口应用程序的入口点
+ */
+using System;
 
 namespace _00AboutMain
 {
