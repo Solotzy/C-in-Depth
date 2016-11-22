@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="21暂停一段时间.cs" />
     <Compile Include="22返回完成的任务.cs" />
+    <Compile Include="23报告进度.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -10,10 +10,12 @@
  *     已经完成的，并有指定的值
  */
 
+using System;
 using System.Threading.Tasks;
 
 namespace ch2SimpleAsync
 {
+    
     interface IMyAsyncInterface
     {
         Task<int> GetValueAsync();
@@ -21,9 +23,19 @@ namespace ch2SimpleAsync
 
     class MySynchronousImplementation : IMyAsyncInterface
     {
+        private static readonly Task<int> ZeroTask = Task.FromResult(0);
         public Task<int> GetValueAsync()
         {
-            return Task.FromResult(13);
+            return ZeroTask;
+            //return Task.FromResult(13);
+        }
+
+        //Task.FromResult只不过是TaskCompletionSource的一个简化版本
+        static Task<T> NotImplementedAsync<T>()
+        {
+            var tcs = new TaskCompletionSource<T>();
+            tcs.SetException(new NotImplementedException());
+            return tcs.Task;
         }
     }
     class _22返回完成的任务
