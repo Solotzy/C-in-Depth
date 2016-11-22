@@ -6,18 +6,15 @@
  * 解决方案：
  *     Task类有一个返回Task对象的静态函数Delay，这个Task对象会在指定的时间后完成
  */
+
 using System;
 using System.Net.Http;
 using System.Threading.Tasks;
 
-namespace _01StopSomeTime
+namespace ch2SimpleAsync
 {
-    class Program
+    class _21暂停一段时间
     {
-        static void Main(string[] args)
-        {
-        }
-
         //用于 异步成功 测试
         static async Task<T> DelayResult<T>(T result, TimeSpan delay)
         {

@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // 有关程序集的一般信息由以下
 // 控制。更改这些特性值可修改
 // 与程序集关联的信息。
-[assembly: AssemblyTitle("01StopSomeTime")]
+[assembly: AssemblyTitle("02ReturnCompleteTask")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("01StopSomeTime")]
+[assembly: AssemblyProduct("02ReturnCompleteTask")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // 如果此项目向 COM 公开，则下列 GUID 用于类型库的 ID
-[assembly: Guid("15875d0a-44f1-437d-8f8e-84a9dc154bad")]
+[assembly: Guid("e50e1093-99b9-4baa-9443-7d8a8ac59232")]
 
 // 程序集的版本信息由下列四个值组成: 
 //
