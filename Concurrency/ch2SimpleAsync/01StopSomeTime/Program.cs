@@ -1,5 +1,10 @@
-﻿/*
- * Task类有一个返回Task对象的静态函数Delay，这个Task对象会在指定的时间后完成
+﻿/* 
+ * 问题：
+ *     需要让程序(以异步方式)等待一段时间。这在进行单元测试或者实现重试延迟时
+ * 非常有用
+ * 
+ * 解决方案：
+ *     Task类有一个返回Task对象的静态函数Delay，这个Task对象会在指定的时间后完成
  */
 using System;
 using System.Net.Http;
@@ -47,6 +52,8 @@ namespace _01StopSomeTime
         }
 
         //超时功能：如果服务在3秒内没有响应，就返回null
+        //Task.Delay适合用于对异步代码进行单元测试或者实现重试逻辑。
+        //要实现超时功能的话，最好使用CancellationToken
         static async Task<string> DownLoadStringWithTimeout(string uri)
         {
             using (var client = new HttpClient())
