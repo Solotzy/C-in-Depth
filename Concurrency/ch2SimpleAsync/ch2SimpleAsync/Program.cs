@@ -10,6 +10,8 @@ namespace ch2SimpleAsync
     {
         static void Main(string[] args)
         {
+            _26任务完成时的处理.ProcessTasksAsync();
+            Console.Read();
         }
     }
 }
