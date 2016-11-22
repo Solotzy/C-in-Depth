@@ -49,6 +49,9 @@
     <Compile Include="24等待一组任务完成.cs" />
     <Compile Include="25等待任意一个任务完成.cs" />
     <Compile Include="26任务完成时的处理.cs" />
+    <Compile Include="27避免上下文延续.cs" />
+    <Compile Include="28处理异步任务方法的异常.cs" />
+    <Compile Include="29处理void方法的异常.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
