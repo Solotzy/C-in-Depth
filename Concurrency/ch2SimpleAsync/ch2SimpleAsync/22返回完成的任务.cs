@@ -6,13 +6,28 @@
  *     这两种情况下都可使用这种技术
  *     
  * 解决方案
- *     可以使用Task.FromResult方法创建并返回一个新的Task<T>对象这个Task对象是已经完成的，并有指定的值
- * 
+ *     可以使用Task.FromResult方法创建并返回一个新的Task<T>对象这个Task对象是
+ *     已经完成的，并有指定的值
  */
+
+using System.Threading.Tasks;
 
 namespace ch2SimpleAsync
 {
+    interface IMyAsyncInterface
+    {
+        Task<int> GetValueAsync();
+    }
+
+    class MySynchronousImplementation : IMyAsyncInterface
+    {
+        public Task<int> GetValueAsync()
+        {
+            return Task.FromResult(13);
+        }
+    }
     class _22返回完成的任务
     {
+
     }
 }
